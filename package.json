@@ -115,6 +115,7 @@
         "react-tooltip": "^5.27.1",
         "reactstrap": "^9.1.6",
         "redux": "4.0.5",
+        "sass": "^1.80.7",
         "sidebar": "^1.0.2",
         "socicon": "3.0.5",
         "socket.io-client": "^4.7.5",
@@ -128,8 +129,6 @@
     "devDependencies": {
         "copyfiles": "2.1.1",
         "rimraf": "^5.0.7",
-        "sass": "^1.32.5",
-        "sass-lint": "^1.7.0",
         "serve": "11.2.0"
     }
 }
