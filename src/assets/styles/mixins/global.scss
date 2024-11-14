@@ -1,0 +1,299 @@
+@import "../mixins/typography";
+@import "../function/columns";
+@import "../layout/container";
+@import "../mixins/columns";
+@import "../mixins/breakpoint";
+@import "../mixins/index";
+@import "../mixins/function";
+@import "../scss/flexbox";
+@import "../scss/input";
+@import "../scss/button";
+.layout-grid {
+    display: flex;
+    gap: 0;
+}
+
+.all-button-right-alignment {
+    justify-content: flex-end;
+    button {
+      min-width: 120px;
+      margin-right: 10px;
+    }
+  }
+
+.cus-medium-button-style {
+    button {
+      background-color: #e63a3a;
+      padding: 5px 15px;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 4px;
+      border: none;
+    }
+  }
+
+.sidebar-layout-grid {
+    width: 270px;
+    transition: .3s ease-in-out;
+}
+
+.sidebar-layout-grid-change {
+    width: 70px;
+    display: flex;
+    transition: .3s ease-in-out;
+}
+
+.children-load-content-layout {
+    width: calc(100% - 270px);
+    transition: .3s ease-in-out;
+}
+
+.children-load-content-layout-change {
+    width: calc(100% - 70px);
+    transition: .3s ease-in-out;
+}
+
+.layout-alignment {
+    padding: 0 43px;
+
+    @include breakpoint("max-xl") {
+        padding: 0 24px;
+    }
+}
+
+.search-bar-only-design-alignment {
+    padding: 24px;
+    background-color: var(--bg-white);
+    box-shadow: 0px 0px 5px #00000008;
+    margin: 0 0 24px 0;
+    border-radius: 10px;
+}
+
+.height-remove-payment-receive {
+    .customer-table-responsive {
+        height: calc(100vh - 365px) !important;
+        overflow: auto;
+    }
+
+    .height-alignment-for-table {
+        height: calc(100vh - 431px) !important;
+    }
+}
+
+.remove-show-user-height {
+    .customer-table-responsive {
+        height: calc(100vh - 433px);
+        overflow: auto;
+        overflow-x: hidden;
+    }
+}
+
+.product-manager-table-height-fix {}
+
+.gst-span-two {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    gap: 16px;
+    align-items: center;
+
+    .span-two-col {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .blue-button {
+        button {
+            height: 42px;
+            position: relative;
+            top: 3px;
+        }
+    }
+}
+
+.gst-table-design-change {
+    .customer-table-responsive {
+        height: calc(100vh - 523px) !important;
+        overflow: auto !important;
+    }
+}
+
+.itr-select-search-grid {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    gap: 16px;
+    align-items: center;
+
+    .blue-button {
+        button {
+            height: 42px;
+            position: relative;
+            top: 3px;
+        }
+    }
+}
+
+.new-button-style-global-align {
+    button {
+        height: 46px;
+        border-radius: 5px;
+        position: relative;
+        top: -27px;
+    }
+}
+
+.new-button-style-global-align1 {
+    button {
+        height: 46px;
+        border-radius: 5px;
+        position: relative;
+        top: 5px;
+
+        i {
+            color: #fff;
+        }
+    }
+}
+
+.notification-new-text-style-alignment {
+    h1 {
+        font-size: 25px;
+        font-family: var(--default-font-family);
+        line-height: 32px;
+        font-weight: 600;
+        color: var(--dark-black);
+        margin: 0 0 32px 0;
+        text-align: center;
+        font-family: var(--default-font-family);
+    }
+}
+
+.new-invoice-text-alignment {
+    h1 {
+        font-size: 25px;
+        font-family: var(--default-font-family);
+        line-height: 32px;
+        font-weight: 600;
+        color: var(--dark-black);
+        margin: 0 0 32px 0;
+        font-family: var(--default-font-family);
+    }
+}
+
+.download-btn {
+    button {
+        @include flex-center;
+        justify-content: center;
+
+        span {
+            padding-right: 5px;
+        }
+    }
+}
+
+.print-button-style-global {
+    button {
+        @include flex-center;
+        justify-content: center;
+        padding: 8px 14px;
+
+        span {
+            padding-right: 8px;
+            display: block;
+        }
+
+        i {
+            margin-right: 0 !important;
+        }
+    }
+}
+
+.globally-change-react-date-picker-style {
+    @include flex-center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.date-picker-and-completed-button-alignment {
+    @include flex-center;
+
+    .form-control {
+        padding: 0;
+    }
+
+    .blue-button {
+        margin-left: 15px;
+
+        button {
+            height: 46px;
+        }
+    }
+}
+
+.check-icon-alignemnt {
+    i {
+        font-size: 18px;
+        @include pointer;
+    }
+}
+
+.customer-table-responsive-new {
+    height: calc(100vh - 489px) !important;
+}
+
+.customer-table-responsive-height-alignment1 {
+    height: calc(100vh - 245px) !important;
+
+    .customer-table-responsive {
+        height: calc(100vh - 244px) !important;
+    }
+}
+
+.form-control-sapce-remove-itr {
+    padding: 0 !important;
+}
+
+.blue-button-hegiht-itr {
+    button {
+        height: 46px;
+    }
+}
+
+.new-button-style-global-align-one {
+    position: relative;
+    top: 30px !important;
+}
+
+.print-itr-button-style {
+    button {
+        min-width: 125px;
+    }
+}
+
+.customer-table-responsive-admin .customer-table-responsive {
+    height: calc(100vh - 490px) !important;
+}
+
+.select-invoice-type-alignment {
+    width: 350px;
+}
+
+.errors{
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+
+.tab-show-area {
+  height: 100%;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.tab-hidden-area {
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}

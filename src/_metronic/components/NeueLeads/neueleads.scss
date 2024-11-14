@@ -1,0 +1,71 @@
+.neueleads-container {
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: #fff;
+
+  .neulead-title {
+    p {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19.36px;
+      text-align: left;
+      color: #4d4d4d;
+    }
+
+  
+  }
+  .newleads-datatable{
+    padding-top: 20px;
+    >div{
+        >div{
+            >div{
+                >div{
+                    >div{
+                        border-bottom: 1px solid#4D4D4D;
+                    }
+                }
+            }
+        }
+    }
+  }
+}
+
+.profileImage{
+    font-family: "Inter", sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: left;
+color: #5C6A76;
+
+}
+
+.table-buttonalignment {
+  display: flex;
+  gap: 30px;
+
+  button {
+    background-color: #e5f3ec;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+    color: #7cc5af;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  // button:last-child {
+  //   background-color: #f6eadf;
+  //   font-family: "Inter", sans-serif;
+  //   font-size: 15px;
+  //   font-weight: 500;
+  //   line-height: 16.94px;
+  //   text-align: center;
+  //   color: #e8a56a;
+  //   border: none;
+  //   border-radius: 20px;
+  //   padding: 5px;
+  // }
+}

@@ -1,0 +1,36 @@
+//
+// Header Mobile
+//
+
+// Desktop Mode
+@include media-breakpoint-up(lg) {
+	.header-mobile {
+		display: none;
+	}
+}
+
+// Tablet & Mobile Modes
+@include media-breakpoint-down(md) {
+	.header-mobile {
+		display: grid;
+		grid-template-columns: 154px 1fr;
+		position: relative;
+		z-index: 3;
+
+		// Fixed Mobile Header Mode
+		.header-mobile-fixed & {
+			position: fixed;
+			top: 0;
+			right: 0;
+			left: 0;
+			z-index: get($header-config, tablet-and-mobile, fixed, zindex);
+			height: 133px;
+			min-height: 133px;
+		}
+
+		// Topbar Shown Mode
+		.topbar-mobile-on & {
+			box-shadow: none !important;
+		}
+	}
+}

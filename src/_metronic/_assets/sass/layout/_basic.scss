@@ -1,0 +1,163 @@
+hr {
+  border: 0;
+  height: 1px;
+  background: rgb(165, 0, 0);
+  background-image: linear-gradient(to right, #ccc, #1c3131, #ccc);
+}
+
+.new-design {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 33.8px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  height: 34px;
+
+  h3 {
+    color: #26372e;
+  }
+}
+
+.new-under-design {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.6px;
+  letter-spacing: 0.045em;
+
+  p {
+    color: #26372e !important;
+  }
+}
+
+.new-class-design {
+  padding: 14px 20px 14px 20px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+
+  button {
+    background-color: #26372e;
+  }
+}
+
+.new-class-desig-vddwsas {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+
+  @media (max-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+}
+
+.main-design-logo-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    display: block;
+    max-width: 400px;
+    // height: 502px;
+
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
+}
+
+.login-page-skatch-image-div {
+  display: none;
+  width: 100%;
+
+  @media (max-width: 1024px) {
+    display: block;
+  }
+}
+
+.login-width {
+  @media (max-width: 1024px) {
+    max-width: 100% !important;
+  }
+
+  form {
+    .form-group {
+      width: auto;
+
+      @media (max-width: 576px) {
+        width: 300px !important;
+        margin: 0 auto 21px auto;
+      }
+    }
+
+    .form-inp-sc {
+      margin: 0;
+
+      @media (max-width: 576px) {
+        width: 300px !important;
+        margin: 0 auto;
+      }
+    }
+
+    .forget-password-text {
+      margin: 10px 0 0 0;
+
+      @media (max-width: 576px) {
+        margin: 10px 40px 0 0;
+      }
+    }
+  }
+}
+
+.email-input-sc {
+  @media (max-width: 1024px) {
+    width: 100% !important;
+  }
+}
+
+.input-alignment-sc {
+  @media (max-width: 1024px) {
+    width: auto !important;
+  }
+}
+
+.weoprologin-mx {
+  text-align: center;
+  display: none;
+
+  @media (max-width: 1024px) {
+    display: block;
+  }
+}
+
+.input-alignment {
+  ::placeholder {
+    color: #3f4254 !important;
+  }
+
+  width: 398px;
+}
+
+.forget-password-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+
+  span {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.6px;
+    letter-spacing: 0.03em;
+    text-align: right;
+    color: #758076;
+    cursor: pointer;
+  }
+}

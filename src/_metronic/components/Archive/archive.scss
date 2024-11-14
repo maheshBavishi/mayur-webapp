@@ -1,0 +1,76 @@
+.archivepage-container{
+
+
+
+    margin: 0 auto;
+    padding: 20px 30px;
+    background-color: #fff;
+
+    @media (max-width:1024px) {
+      margin: 40px 0 0 0;
+    }
+    
+    @media (max-width:576px) {
+      margin: 0 ;
+    }
+
+    .archivepage-title {
+        p {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 19.36px;
+          text-align: left;
+          color: #4d4d4d;
+        }
+    
+      
+       
+      }
+
+      .projekte-datatable-ss {
+        padding-top: 20px;
+        > div {
+          > div {
+            > div {
+              > div {
+                > div {
+                  border-bottom: 1px solid#4D4D4D;
+                  font-size: 15px;
+                  display: flex;
+                  justify-content: center;
+                  > div {
+                    color: #5c6a76;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    
+}
+
+.new-statusData{
+  background-color: #e5f3ec;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: center;
+  color: #2C4570;
+
+}
+.new-statusDatappppppppppp{
+
+  background-color: #f6dfdf;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 14.52px;
+    text-align: center;
+    color: #d12424;
+  
+  
+}

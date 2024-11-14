@@ -1,0 +1,20 @@
+.actionColumn{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+.new_data__table{
+
+        @media only screen and (max-width : 1000){
+
+        }
+        // overflow-x: hidden !important;
+   
+}
+.Email{
+    max-width: 160px;
+}
+.description-header{
+    // overflow-x: hidden;
+    max-width: 160px;
+}
