@@ -37,7 +37,6 @@
         "@fortawesome/free-regular-svg-icons": "^6.5.2",
         "@fortawesome/free-solid-svg-icons": "^6.5.2",
         "@fortawesome/react-fontawesome": "^0.2.0",
-        "@hello-pangea/dnd": "^17.0.0",
         "@material-ui/core": "4.9.14",
         "@material-ui/icons": "4.9.1",
         "@material-ui/lab": "4.0.0-alpha.53",
